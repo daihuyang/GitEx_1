@@ -8,7 +8,7 @@ public class checkpal_noreversedstring {
 	 
 	    System.out.println("Input a string");
 	    inputString = in.nextLine();
-	 
+	    
 	    int length  = inputString.length();
 	    int i, begin, end, middle;
 	 
@@ -27,6 +27,7 @@ public class checkpal_noreversedstring {
 	    if (i == middle + 1)
 	      System.out.println("Palindrome");
 	    else
-	      System.out.println("Not a palindrome");
+	      System.out.println("Not a palindrome");//test comment
+	    System.out.println("the end");
 	  }
 }
